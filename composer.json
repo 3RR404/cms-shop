@@ -1,0 +1,22 @@
+{
+	"name": "weblike/cms-shop",
+	"description": "E-shop package",
+	"type": "library",
+	"require": {
+		"gopay/payments-sdk-php": "^1.4",
+		"dompdf/dompdf": "^1.0"
+	},
+	"license": "gnu-agpl-v3",
+	"authors": [
+		{
+			"name": "Ján Michel",
+			"email": "jan.michel@4memedia.sk"
+		}
+	],
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"Weblike\\Cms\\Shop\\": "src/"
+		}
+	}
+}
